@@ -1,2 +1,3 @@
 # security-audits
-Repository containing VLX related documents
+Repository containing VLX related security audits
+

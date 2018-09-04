@@ -1,7 +1,7 @@
 # Verv Energy Smart Contracts Audit
 # Zero Knowledge Labs Auditing
 
-AUTHORS: MAKOTO INUE, LAURENCE KIRK
+### AUTHORS: MAKOTO INUE, LAURENCE KIRK
 
 ## Section 1 - Section 1 - Table of Contents
 

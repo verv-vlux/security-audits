@@ -4,6 +4,51 @@
 ### AUTHORS: MAKOTO INUE, LAURENCE KIRK
 
 ## Section 1 - Section 1 - Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Section 2 - Introduction](#section-2---introduction)
+    - [2.1 Authenticity](#21-authenticity)
+    - [2.2 Audit Goals and Focus](#22-audit-goals-and-focus)
+      - [2.2.1 Sound Architecture](#221-sound-architecture)
+      - [2.2.2 Smart Contract Best Practices](#222-smart-contract-best-practices)
+      - [2.2.3 Code Correctness](#223-code-correctness)
+      - [2.2.4 Code Quality](#224-code-quality)
+      - [2.2.5 Security](#225-security)
+      - [2.2.6 Testing and testability](#226-testing-and-testability)
+    - [2.3 About the Verv Flux ICO](#23-about-the-verv-flux-ico)
+    - [2.4 Terminology](#24-terminology)
+      - [2.4.1 Likelihood](#241-likelihood)
+      - [2.4.2 Impact](#242-impact)
+      - [2.4.3 Severity](#243-severity)
+  - [Section 3 - Overview](#section-3---overview)
+    - [3.1 Source Code](#31-source-code)
+    - [3.2 General Notes](#32-general-notes)
+    - [3.3 Contracts](#33-contracts)
+  - [Section 4 - Testing](#section-4---testing)
+  - [Section 5 - Audit findings](#section-5---audit-findings)
+    - [5.1 Note Issues](#51-note-issues)
+      - [5.1.1 finalizationRetainStrategy[companyWallet] does not need to be a map](#511-finalizationretainstrategycompanywallet-does-not-need-to-be-a-map)
+      - [5.1.2 investorsMarge should not need to be calculated at finalize](#512-investorsmarge-should-not-need-to-be-calculated-at-finalize)
+      - [5.1.3 updateCap has no check for 20 mil hardcap which is mentioned at comment.](#513-updatecap-has-no-check-for-20-mil-hardcap-which-is-mentioned-at-comment)
+      - [5.1.4 wither cap is a typo](#514-wither-cap-is-a-typo)
+      - [5.1.5 bonuses variable defined but never used](#515-bonuses-variable-defined-but-never-used)
+      - [5.1.6 whenNotPaused modifier is missing on disbursePreBuyersLkdContributions function](#516-whennotpaused-modifier-is-missing-on-disburseprebuyerslkdcontributions-function)
+    - [5.2 Low Issues](#52-low-issues)
+      - [5.2.1 Vesting period can be manipulated by changing endTime](#521-vesting-period-can-be-manipulated-by-changing-endtime)
+      - [5.2.2 updateCap does not check if new cap is more than weiRaised](#522-updatecap-does-not-check-if-new-cap-is-more-than-weiraised)
+      - [5.2.3 start and end time are hardcoded on constructor](#523-start-and-end-time-are-hardcoded-on-constructor)
+      - [5.2.4 hasEnded defined in super class and sub class which offer different functionality](#524-hasended-defined-in-super-class-and-sub-class-which-offer-different-functionality)
+      - [5.2.5 uint for representing stage should be uint8](#525-uint-for-representing-stage-should-be-uint8)
+      - [5.2.6 Whitelisting may take too long](#526-whitelisting-may-take-too-long)
+    - [5.3 Medium Issues](#53-medium-issues)
+    - [5.4 High Issues](#54-high-issues)
+      - [5.4.1 Whitelisted users can contribute more than 10 ETH in day 1](#541-whitelisted-users-can-contribute-more-than-10-eth-in-day-1)
+    - [5.4.2 Users can contribute more than cap](#542-users-can-contribute-more-than-cap)
+    - [5.5 Critical Issues](#55-critical-issues)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ## Section 2 - Introduction

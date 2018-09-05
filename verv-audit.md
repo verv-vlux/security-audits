@@ -130,12 +130,12 @@ methodology.
 
 #### 2.4.2 Impact
 
-The impact a bug would have if exploited, as specified by the OWASP risk rating methodology.
+The impact a bug would have if exploited, as specified by the [OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood).
 
 #### 2.4.3 Severity
 
-How serious the issue is, derived from Likelihood and Impact as specified by the [OWASP risk rating
-methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood)
+How serious the issue is, derived from Likelihood and Impact as specified by the OWASP risk rating methodology.
 
 ## Section 3 - Overview
 

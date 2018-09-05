@@ -1,3 +1,5 @@
+![frontcover](https://user-images.githubusercontent.com/41786403/45082081-79637180-b0f0-11e8-8e97-6baaa638d40a.png)
+
 # Verv Energy Smart Contracts Audit
 # Zero Knowledge Labs Auditing
 

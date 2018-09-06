@@ -150,7 +150,7 @@ The code was audited as of commit 24c98376861850773efcf26be63e45987ba76445 .
 
 ### 3.2 General Notes
 
-The contract is built on top of [OpenZeppelin](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_4:_Determining_the_Severity_of_the_Risk). smart contract libraries and custom stage transition,
+The contract is built on top of [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-solidity) smart contract libraries and custom stage transition,
 white listing, and pre sale logics are added. The contract stage is transitioned via transitionGuard
 modifier which are set on all public functions rather than calling a specific function.
 

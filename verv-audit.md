@@ -125,17 +125,19 @@ This audit uses the following terminology.
 
 #### 2.4.1 Likelihood
 
-How likely a bug is to be encountered or exploited in the wild, as specified by the OWASP risk rating
-methodology.
+How likely a bug is to be encountered or exploited in the wild, as specified by the [OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood).
+
 
 #### 2.4.2 Impact
 
 The impact a bug would have if exploited, as specified by the [OWASP risk rating
-methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood).
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_3:_Factors_for_Estimating_Impact).
 
 #### 2.4.3 Severity
 
-How serious the issue is, derived from Likelihood and Impact as specified by the OWASP risk rating methodology.
+How serious the issue is, derived from Likelihood and Impact as specified by the [OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_4:_Determining_the_Severity_of_the_Risk).
 
 ## Section 3 - Overview
 

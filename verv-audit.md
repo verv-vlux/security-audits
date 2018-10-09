@@ -105,17 +105,17 @@ After examining the source code, we verified that the audited source code behave
 * The softcap can be increased until the crowdsale ends.
 * There is no set token supply encoded in the contract.
 * The inial tokne/ETH rate is 2000 and can be increased up to until the crowdsale starts.
-* There are pre sale period where contract owner can allocate tokens either with variable rate (max8000)(disbursePreBuyersLkdContributions ) or for free ( distributePreBuyersLkdRewards).
+* There are pre sale period where contract owner can allocate tokens either with variable rate (max8000)(`disbursePreBuyersLkdContributions` ) or for free ( `distributePreBuyersLkdRewards`).
 * The presale allocated token must have vesting period of 3/6/9/12 months.
-* All the preallocated tokens are held in the TokenVesting contract and can be withdrawn after the vesting periods.
+* All the preallocated tokens are held in the `TokenVesting` contract and can be withdrawn after the vesting periods.
 * When Ether is sent, it is transfered to a wallet immediately 
-(standard behavior of the CrowdSale contract).
+(standard behavior of the `CrowdSale` contract).
 * Day 1 is open to whitelisted users, with a 15% discount.
 * Day 2 is open to whitelisted users, with a 12.5% discount.
 * Day 3 is open to anyone, with a 10% discount.
 * Day 4 has no discount.
 * The crowdsale contract stops accepting contributions when either the cap or end time is reached.
-* The sale is finalised when the finalize function is called by anyone.
+* The sale is finalised when the `finalize` function is called by anyone.
 * When the contract is finalised, it mints allocation for the company (34%).
 * Once finalised no more tokens will be minted.
 
@@ -125,19 +125,19 @@ This audit uses the following terminology.
 
 #### 2.4.1 Likelihood
 
-How likely a bug is to be encountered or exploited in the wild, as specified by the [OWASP risk rating
-methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood).
+How likely a bug is to be encountered or exploited in the wild, as specified by the **[OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_2:_Factors_for_Estimating_Likelihood)**.
 
 
 #### 2.4.2 Impact
 
-The impact a bug would have if exploited, as specified by the [OWASP risk rating
-methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_3:_Factors_for_Estimating_Impact).
+The impact a bug would have if exploited, as specified by the **[OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_3:_Factors_for_Estimating_Impact)**.
 
 #### 2.4.3 Severity
 
-How serious the issue is, derived from Likelihood and Impact as specified by the [OWASP risk rating
-methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_4:_Determining_the_Severity_of_the_Risk).
+How serious the issue is, derived from Likelihood and Impact as specified by the **[OWASP risk rating
+methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_4:_Determining_the_Severity_of_the_Risk)**.
 
 ## Section 3 - Overview
 

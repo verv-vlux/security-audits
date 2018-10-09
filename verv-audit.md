@@ -143,10 +143,10 @@ methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology#Step_
 
 ### 3.1 Source Code
 
-The Verv Flux smart contract source code was made available in the greenrunning/verv-smart-contract
-Bitbucket repository.
+The Verv Flux smart contract source code was made available in the ~~greenrunning/verv-smart-contract
+Bitbucket~~ **verv-vlux/VLX/** repository.
 
-The code was audited as of commit 24c98376861850773efcf26be63e45987ba76445 .
+The code was audited as of commit ~~24c98376861850773efcf26be63e45987ba76445~~ **[6a281fded76acf7b1da553441372ffbbda73a548](/verv-vlux/VLX/commit/6a281fded76acf7b1da553441372ffbbda73a548)** .
 
 ### 3.2 General Notes
 

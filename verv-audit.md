@@ -94,7 +94,7 @@ This audit will examine how easily tested the code is, and review how thoroughly
 
 ### 2.3 About the Verv Flux ICO
 
-The specification of the ICO is specified in their README file.
+The specification of the ICO is specified in their [README](https://github.com/verv-vlux/VLX/blob/6a281fded76acf7b1da553441372ffbbda73a548/README.md) file.
 
 After examining the source code, we verified that the audited source code behaves as follows.
 
